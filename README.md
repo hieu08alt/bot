@@ -30,3 +30,4 @@ Demo
 - Có 2 file Bad Word là `bad_word.txt` và `bad_word1.txt`
 + File `bad_word.txt` là file chính, khi phát hiện từ nói tục thì lật tức mute
 + FIle `bad_word1.txt` là file phụ, nó sẽ được thêm kí tự trắng ở cuối từ nhằm đảm bảo bot không mute nhầm *(nhưng mà giảm tính bảo mật)*
+- Nếu bạn muốn bot chạy 24/7 thì bạn cần một nơi để host. Thì cái đấy bạn từ tìm hiểu nhé.
