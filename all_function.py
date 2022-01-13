@@ -28,16 +28,6 @@ def get_badword():
   
   return list_bad_word + list_bad_word1
 
-def change_time(time):
-  with open('config.json', 'r') as f:
-    config = json.load(f)
-    config["mute_time"] = time
-  with open('config.json', 'w') as f:
-    json.dump(config, f)
-    
-
-
-
 #test
 # print(get_badword())
 # -> ham thanh cong
