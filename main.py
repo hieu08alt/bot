@@ -4,7 +4,6 @@ import os
 import asyncio
 import psutil
 from all_function import get_badword, config_bot, change_time
-from keep_alive import keep_alive
 
 
 list_bad_word = get_badword()
@@ -96,5 +95,4 @@ async def on_message(message):
             return
     await client.process_commands(message)
 
-keep_alive()
 client.run(os.getenv('TOKEN'))
