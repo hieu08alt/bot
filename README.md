@@ -13,6 +13,7 @@
 3. ghi tên author bot vào key `"author"`
 4. bỏ thời gian vào key `"mute_time"` *(đơn vị: second)*
 5. bỏ id của channel cần thông báo mute vào key `"id_channel_send"`
+6. tạo role `Muted` và hãy tắt quyền nói, nhắn tin, reaction,... *(những gì bạn muốn khi user bị mute)*
 
 Demo
 ```json
